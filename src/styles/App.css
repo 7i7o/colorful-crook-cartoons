@@ -1,0 +1,232 @@
+.App {
+  height: 100vh;
+  /*background-color: #0d1116;*/
+  background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+            linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
+            linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+  overflow: scroll;
+  text-align: center;
+}
+
+.container {
+/*  height: 100%;
+  background-color: #0d1116;*/
+  text-align: center;
+/*  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  */
+}
+
+.header-container {
+  padding-top: 30px;
+}
+
+.header {
+  margin: 0;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.sub-text {
+  font-size: 25px;
+  color: white;
+}
+
+.gradient-text {
+  /*background: -webkit-linear-gradient(left, #60c657 30%, #35aee2 60%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 1px white;*/
+}
+
+.cta-button {
+  height: 45px;
+  border: 0;
+  width: auto;
+  padding-left: 40px;
+  padding-right: 40px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+}
+
+.connect-wallet-button {
+  background: -webkit-linear-gradient(left, #60c657, #35aee2);
+  background-size: 200% 200%;
+  animation: gradient-animation 4s ease infinite;
+}
+
+.mint-button {
+  background: -webkit-linear-gradient(left, #a200d6, #ff6fdf);
+  background-size: 200% 200%;
+  animation: gradient-animation 4s ease infinite;
+  margin-right: 15px;
+}
+
+.mint-button {
+  animation: gradient-animation 1s ease infinite;
+  opacity: 0.8;
+}
+
+.opensea-button {
+  background-size: 200% 200%;
+  background-color: rgb(32, 129, 226);
+  max-width: 500px;
+  margin-top: 100px;
+}
+
+.mint-count {
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 30px;
+  padding-top: 100px;
+}
+
+.twitter-logo {
+  width: 35px;
+  height: 35px;
+}
+
+.footer-text {
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* KeyFrames */
+@-webkit-keyframes gradient-animation {
+    0% { background-position:   0% 50%; }
+   50% { background-position: 100% 50%; }
+  100% { background-position:   0% 50%; }
+}
+@-moz-keyframes gradient-animation {
+    0% { background-position:   0% 50%; }
+   50% { background-position: 100% 50%; }
+  100% { background-position:   0% 50%; }
+}
+@keyframes gradient-animation {
+    0% { background-position:   0% 50%; }
+   50% { background-position: 100% 50%; }
+  100% { background-position:   0% 50%; }
+}
+
+
+
+.gradient1 {
+    background: linear-gradient(90deg, black, black, black, black, violet, cyan, black, black, black, black);
+    background-size: 800% 800%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    -webkit-animation: animation1 4s ease infinite;
+    -moz-animation: animation1 4s ease infinite;
+    animation: animation1 4s ease infinite;
+}
+
+@-webkit-keyframes animation1 {
+      0%{background-position:100% 50%}
+     10%{background-position: 50% 50%}
+     30%{background-position: 50% 50%}
+     40%{background-position:  0% 50%}
+    100%{background-position:  0% 50%}
+}
+@-moz-keyframes animation1 {
+      0%{background-position:100% 50%}
+     10%{background-position: 50% 50%}
+     30%{background-position: 50% 50%}
+     40%{background-position:  0% 50%}
+    100%{background-position:  0% 50%}
+}
+@keyframes animation1 {
+      0%{background-position:100% 50%}
+     10%{background-position: 50% 50%}
+     30%{background-position: 50% 50%}
+     40%{background-position:  0% 50%}
+    100%{background-position:  0% 50%}
+}
+
+
+.gradient2 {
+    background: linear-gradient(90deg, black, black, black, black, lightgreen, yellow, black, black, black, black);
+    background-size: 800% 800%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    -webkit-animation: animation2 4s ease infinite;
+    -moz-animation: animation2 4s ease infinite;
+    animation: animation2 4s ease infinite;
+}
+
+@-webkit-keyframes animation2 {
+      0%{background-position:100% 50%}
+     30%{background-position:100% 50%}
+     40%{background-position: 50% 50%}
+     60%{background-position: 50% 50%}
+     70%{background-position:  0% 50%}
+    100%{background-position:  0% 50%}
+}
+@-moz-keyframes animation2 {
+      0%{background-position:100% 50%}
+     30%{background-position:100% 50%}
+     40%{background-position: 50% 50%}
+     60%{background-position: 50% 50%}
+     70%{background-position:  0% 50%}
+    100%{background-position:  0% 50%}
+}
+@keyframes animation2 {
+      0%{background-position:100% 50%}
+     30%{background-position:100% 50%}
+     40%{background-position: 50% 50%}
+     60%{background-position: 50% 50%}
+     70%{background-position:  0% 50%}
+    100%{background-position:  0% 50%}
+}
+
+
+
+.gradient3 {
+    background: linear-gradient(90deg, black, black, black, black, orange, red, black, black, black, black);
+    background-size: 800% 800%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    -webkit-animation: animation3 4s ease infinite;
+    -moz-animation: animation3 4s ease infinite;
+    animation: animation3 4s ease infinite;
+}
+
+@-webkit-keyframes animation3 {
+      0%{background-position:100% 50%}
+     60%{background-position:100% 50%}
+     70%{background-position: 50% 50%}
+     90%{background-position: 50% 50%}
+    100%{background-position:  0% 50%}
+}
+@-moz-keyframes animation3 {
+      0%{background-position:100% 50%}
+     60%{background-position:100% 50%}
+     70%{background-position: 50% 50%}
+     90%{background-position: 50% 50%}
+    100%{background-position:  0% 50%}
+}
+@keyframes animation3 {
+      0%{background-position:100% 50%}
+     60%{background-position:100% 50%}
+     70%{background-position: 50% 50%}
+     90%{background-position: 50% 50%}
+    100%{background-position:  0% 50%}
+}
